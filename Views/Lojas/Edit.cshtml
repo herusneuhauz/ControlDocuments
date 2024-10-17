@@ -1,0 +1,21 @@
+﻿@model ControlDocuments.Models.LojaModel
+
+<h1>Editar Loja</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="ID_Loja" />
+    <div class="form-group">
+        <label asp-for="Nome_Loja" class="control-label"></label>
+        <input asp-for="Nome_Loja" class="form-control" />
+        <span asp-validation-for="Nome_Loja" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary">Voltar</a>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

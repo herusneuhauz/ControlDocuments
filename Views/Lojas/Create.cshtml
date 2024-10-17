@@ -1,0 +1,20 @@
+﻿@model ControlDocuments.Models.LojaModel
+
+<h1>Cadastrar Nova Loja</h1>
+
+<form asp-controller="Lojas" asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Nome_Loja" class="control-label"></label>
+        <input asp-for="Nome_Loja" class="form-control" />
+        <span asp-validation-for="Nome_Loja" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Adicionar</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary">Voltar</a>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

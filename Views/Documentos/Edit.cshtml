@@ -1,0 +1,38 @@
+﻿@model ControlDocuments.Models.DocumentoModel
+
+<h1>Editar Documento</h1>
+
+<form asp-controller="Documentos" asp-action="Edit" method="post">
+    <input type="hidden" asp-for="@Model.ID_Documento" />
+    <div class="form-group">
+        <label asp-for="Numero_Documento" class="control-label"></label>
+        <input asp-for="Numero_Documento" class="form-control" />
+        <span asp-validation-for="Numero_Documento" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Data_Vencimento" class="control-label"></label>
+        <input asp-for="Data_Vencimento" class="form-control" type="date" />
+        <span asp-validation-for="Data_Vencimento" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ID_Loja" class="control-label"></label>
+        <select asp-for="ID_Loja" class="form-control" asp-items="@(new SelectList(ViewBag.Lojas, "ID_Loja", "Nome_Loja", Model.ID_Loja))">
+            <option value="">Selecione uma loja</option>
+        </select>
+        <span asp-validation-for="ID_Loja" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary">Voltar</a>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

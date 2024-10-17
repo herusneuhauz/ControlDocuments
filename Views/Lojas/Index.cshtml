@@ -1,0 +1,26 @@
+﻿@model IEnumerable<ControlDocuments.Models.LojaModel>
+
+<h1>Lista de Lojas</h1>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Cadastrar Nova Loja</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var loja in Model)
+        {
+            <tr>
+                <td>@loja.Nome_Loja</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@loja.ID_Loja" class="btn btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@loja.ID_Loja" class="btn btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,17 @@
+﻿@model ControlDocuments.Models.LojaModel
+
+<h2>Deletar Loja</h2>
+
+<div>
+    <h3>Você tem certeza que deseja deletar esta loja?</h3>
+    <div>
+        <h4>Loja: @Model.Nome_Loja</h4>
+        <!-- Aqui você pode adicionar informações adicionais se necessário -->
+    </div>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="ID_Loja" />
+        <button type="submit" class="btn btn-danger">Deletar</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

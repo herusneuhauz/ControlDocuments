@@ -1,0 +1,20 @@
+﻿@model ControlDocuments.Models.DocumentoModel
+
+<h2>Deletar Documento</h2>
+
+<div>
+    <h4>Você tem certeza que deseja deletar este documento?</h4>
+    <div>
+        <h2>Documento: @Model.Numero_Documento</h2>
+        <h5>Descrição: @Model.Description</h5>
+        <p><strong>Data de Vencimento: </strong>@Model.Data_Vencimento.ToString("dd/MM/yyyy")</p>
+        <p><strong>Data de Lançamento: </strong>@Model.Data_Lancamento.ToString("dd/MM/yyyy")</p>
+        <p><strong>Loja: </strong>@Model.Lojas.Nome_Loja</p> <!-- Nome da loja relacionada -->
+    </div>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="ID_Documento" />
+        <button type="submit" class="btn btn-danger">Deletar</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

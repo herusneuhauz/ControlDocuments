@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ControlDocuments.Models.DocumentoModel>
+
+<h1>Lista de Documentos</h1>
+
+<form asp-action="Index" method="get">
+    <div class="form-group" style="text-align: right; margin-bottom: 20px;">
+        <label for="selectedLojas" class="control-label">Filtro:</label>
+        <div class="dropdown d-inline-block">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Selecione uma ou mais lojas
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                @if (ViewBag.Lojas != null)
+                {
+                    foreach (var loja in ViewBag.Lojas)
+                    {
+                        // Converte ViewBag.SelectedLojas para uma lista de inteiros
+                        var selectedLojas = ViewBag.SelectedLojas as List<int>;
+                        bool isSelected = selectedLojas != null && selectedLojas.Contains(loja.ID_Loja);
+
+                        <a class="dropdown-item" href="#" onclick="toggleSelect(this, '@loja.ID_Loja')">
+                            <input type="checkbox" name="selectedLojas" value="@loja.ID_Loja" @(isSelected ? "checked" : "") style="margin-right: 5px;" />
+                            @loja.Nome_Loja
+                        </a>
+                    }
+                }
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Filtrar</button> <!-- Botão dentro do formulário -->
+    </div>
+</form>
+
+<p><a asp-action="Create" class="btn btn-primary">Cadastrar Novo Documento</a></p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Número do Documento</th>
+            <th>Descrição</th>
+            <th>Data de Vencimento</th>
+            <th>Data de Lançamento</th>
+            <th>Loja</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var documento in Model)
+        {
+            <tr>
+                <td>@documento.Numero_Documento</td>
+                <td>@documento.Description</td>
+                <td>@documento.Data_Vencimento.ToShortDateString()</td>
+                <td>@documento.Data_Lancamento.ToShortDateString()</td>
+                <td>@documento.Lojas.Nome_Loja</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@documento.ID_Documento" class="btn btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@documento.ID_Documento" class="btn btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
