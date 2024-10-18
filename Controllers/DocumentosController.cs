@@ -108,7 +108,7 @@ namespace ControlDocuments.Controllers
             }
 
             var documento = await _context.Documentos
-                .Include(d => d.Lojas) 
+                .Include(d => d.Lojas)
                 .FirstOrDefaultAsync(m => m.ID_Documento == id);
 
             if (documento == null)
@@ -116,7 +116,7 @@ namespace ControlDocuments.Controllers
                 return NotFound();
             }
 
-            return View(documento); 
+            return View(documento);
         }
 
         // POST: Documento/Delete/5
@@ -127,11 +127,11 @@ namespace ControlDocuments.Controllers
             var documento = await _context.Documentos.FindAsync(id);
             if (documento != null)
             {
-                _context.Documentos.Remove(documento);  
-                await _context.SaveChangesAsync();  
+                _context.Documentos.Remove(documento);
+                await _context.SaveChangesAsync();
             }
 
-            return RedirectToAction(nameof(Index));  
+            return RedirectToAction(nameof(Index));
         }
     }
 }

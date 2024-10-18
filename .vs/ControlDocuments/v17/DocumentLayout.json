@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\views\\documentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:views\\documentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DocumentosController.cs",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Controllers\\DocumentosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DocumentosController.cs",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Controllers\\DocumentosController.cs",
+              "RelativeToolTip": "Controllers\\DocumentosController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA2wIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:18:04.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Documentos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Documentos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Documentos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Documentos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T18:17:21.964Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

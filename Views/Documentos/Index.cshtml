@@ -9,7 +9,7 @@
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Selecione uma ou mais lojas
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="max-height: 200px; overflow-y: auto;">
                 @if (ViewBag.Lojas != null)
                 {
                     foreach (var loja in ViewBag.Lojas)
@@ -18,15 +18,16 @@
                         var selectedLojas = ViewBag.SelectedLojas as List<int>;
                         bool isSelected = selectedLojas != null && selectedLojas.Contains(loja.ID_Loja);
 
-                        <a class="dropdown-item" href="#" onclick="toggleSelect(this, '@loja.ID_Loja')">
-                            <input type="checkbox" name="selectedLojas" value="@loja.ID_Loja" @(isSelected ? "checked" : "") style="margin-right: 5px;" />
+                        <label class="dropdown-item d-flex align-items-center" style="cursor: pointer;">
+                            <input type="checkbox" name="selectedLojas" value="@loja.ID_Loja" @(isSelected ? "checked" : "") style="margin-right: 10px;" />
                             @loja.Nome_Loja
-                        </a>
+                        </label>
                     }
                 }
             </div>
         </div>
-        <button type="submit" class="btn btn-primary mt-2">Filtrar</button> <!-- Botão dentro do formulário -->
+        <button type="submit" class="btn btn-primary mt-2">Filtrar</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary mt-2">Limpar Filtros</a>
     </div>
 </form>
 

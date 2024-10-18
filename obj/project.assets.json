@@ -4045,11 +4045,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocuments\\ControlDocuments.csproj",
+      "projectUniqueName": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\ControlDocuments.csproj",
       "projectName": "ControlDocuments",
-      "projectPath": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocuments\\ControlDocuments.csproj",
+      "projectPath": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\ControlDocuments.csproj",
       "packagesPath": "C:\\Users\\herus.neuhaus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocuments\\obj\\",
+      "outputPath": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\herus.neuhaus\\AppData\\Roaming\\NuGet\\NuGet.Config",
