@@ -1,32 +1,38 @@
-using ControlDocuments.Models;
+using ControlDocuments.Data;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 
-namespace ControlDocuments.Controllers
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    private readonly AppDbContext _context;
+
+    public HomeController(AppDbContext context)
     {
-        private readonly ILogger<HomeController> _logger;
+        _context = context;
+    }
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+    public IActionResult Index()
+    {
+        // Total de documentos
+        var totalDocumentos = _context.Documentos.Count();
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+        // Documentos por loja
+        var documentosPorLoja = _context.Lojas
+            .Select(l => new
+            {
+                Loja = l.Nome_Loja,
+                TotalDocumentos = l.Documentos.Count()
+            })
+            .ToList();
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+        // Documentos no mês atual
+        var documentosNoMesAtual = _context.Documentos
+            .Count(d => d.Data_Vencimento.Month == DateTime.Now.Month && d.Data_Vencimento.Year == DateTime.Now.Year);
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        // Preparar o ViewBag
+        ViewBag.TotalDocumentos = totalDocumentos;
+        ViewBag.DocumentosPorLoja = documentosPorLoja;
+        ViewBag.DocumentosNoMesAtual = documentosNoMesAtual;
+
+        return View();
     }
 }

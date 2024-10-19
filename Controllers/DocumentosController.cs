@@ -3,9 +3,11 @@ using ControlDocuments.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
+using ControlDocuments.Filters;
 
 namespace ControlDocuments.Controllers
 {
+    [AutenticacaoFilter]
     public class DocumentosController : Controller
     {
         private readonly AppDbContext _context;

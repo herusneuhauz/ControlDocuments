@@ -11,5 +11,6 @@
 
         public DbSet<LojaModel> Lojas { get; set; }
         public DbSet<DocumentoModel> Documentos { get; set; }
+        public DbSet<UsuarioModel> Usuarios { get; set; }
     }
 }

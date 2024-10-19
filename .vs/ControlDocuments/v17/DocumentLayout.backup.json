@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\views\\documentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:views\\documentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\views\\usuario\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:views\\usuario\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\controllers\\lojascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:controllers\\lojascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\filters\\autenticacaofilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:filters\\autenticacaofilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|c:\\users\\herus.neuhaus\\documents\\projetos\\controldocumentos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{855AEAF1-E32E-4A88-A75B-0C8B24721D18}|ControlDocuments.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +62,172 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwCgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T15:52:38.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwDoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T15:35:18.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Login.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwDoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T13:57:05.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Usuario\\Registrar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Registrar.cshtml",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Usuario\\Registrar.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Registrar.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T15:29:03.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DocumentosController.cs",
               "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Controllers\\DocumentosController.cs",
               "RelativeDocumentMoniker": "Controllers\\DocumentosController.cs",
               "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Controllers\\DocumentosController.cs",
               "RelativeToolTip": "Controllers\\DocumentosController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA2wIkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:18:04.251Z",
+              "WhenOpened": "2024-10-19T14:33:48.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Documentos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Documentos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Views\\Documentos\\Index.cshtml",
-              "RelativeToolTip": "Views\\Documentos\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T18:17:21.964Z",
+              "DocumentIndex": 9,
+              "Title": "AutenticacaoFilter.cs",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Filters\\AutenticacaoFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\AutenticacaoFilter.cs",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Filters\\AutenticacaoFilter.cs",
+              "RelativeToolTip": "Filters\\AutenticacaoFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:05:33.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "Models\\UsuarioModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:05:22.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T14:04:04.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:02:24.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T14:02:02.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:57:55.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:56:25.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LojasController.cs",
+              "DocumentMoniker": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Controllers\\LojasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LojasController.cs",
+              "ToolTip": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\Controllers\\LojasController.cs",
+              "RelativeToolTip": "Controllers\\LojasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:33:51.546Z",
               "EditorCaption": ""
             }
           ]

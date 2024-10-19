@@ -1,10 +1,12 @@
 ﻿using ControlDocuments.Data;
+using ControlDocuments.Filters;
 using ControlDocuments.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace ControlDocuments.Controllers
 {
+    [AutenticacaoFilter]
     public class LojasController : Controller
     {
         private readonly AppDbContext _context;
