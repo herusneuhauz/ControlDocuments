@@ -15,6 +15,10 @@ public class HomeController : Controller
         // Total de documentos
         var totalDocumentos = _context.Documentos.Count();
 
+        // Total de Lojas cadastradas
+
+        var totalLojas = _context.Lojas.Count();
+
         // Documentos por loja
         var documentosPorLoja = _context.Lojas
             .Select(l => new
@@ -26,10 +30,12 @@ public class HomeController : Controller
 
         // Documentos no mês atual
         var documentosNoMesAtual = _context.Documentos
-            .Count(d => d.Data_Vencimento.Month == DateTime.Now.Month && d.Data_Vencimento.Year == DateTime.Now.Year);
+     .Count(d => d.Data_Lancamento.Month == DateTime.Now.Month && d.Data_Lancamento.Year == DateTime.Now.Year);
+
 
         // Preparar o ViewBag
         ViewBag.TotalDocumentos = totalDocumentos;
+        ViewBag.TotalLojas = totalLojas;
         ViewBag.DocumentosPorLoja = documentosPorLoja;
         ViewBag.DocumentosNoMesAtual = documentosNoMesAtual;
 
