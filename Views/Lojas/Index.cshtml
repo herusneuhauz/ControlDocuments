@@ -1,26 +1,60 @@
 ﻿@model IEnumerable<ControlDocuments.Models.LojaModel>
 
-<h1>Lista de Lojas</h1>
+<h1 class="text-primary">Lista de Lojas</h1>
+
 <p>
-    <a asp-action="Create" class="btn btn-primary">Cadastrar Nova Loja</a>
+    <a asp-action="Create" class="btn btn-primary mb-3">Cadastrar Nova Loja</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Nome</th>
-            <th>Ações</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var loja in Model)
-        {
+
+<div class="table-responsive">
+    <table class="table table-hover table-bordered">
+        <thead class="thead-dark">
             <tr>
-                <td>@loja.Nome_Loja</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@loja.ID_Loja" class="btn btn-warning">Editar</a>
-                    <a asp-action="Delete" asp-route-id="@loja.ID_Loja" class="btn btn-danger">Excluir</a>
-                </td>
+                <th>Loja</th>
+                <th class="text-center">Ações</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var loja in Model)
+            {
+                <tr>
+                    <td>@loja.Nome_Loja</td>
+                    <td class="text-center">
+                        <a asp-action="Edit" asp-route-id="@loja.ID_Loja" class="btn btn-sm btn-warning">Editar</a>
+                        <a asp-action="Delete" asp-route-id="@loja.ID_Loja" class="btn btn-sm btn-danger">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Estilos personalizados -->
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .table {
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .table th, .table td {
+        vertical-align: middle;
+    }
+
+    .btn {
+        padding: 6px 12px;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+</style>

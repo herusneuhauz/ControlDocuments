@@ -4040,19 +4040,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\herus.neuhaus\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\ControlDocuments.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\ControlDocuments\\ControlDocuments.csproj",
       "projectName": "ControlDocuments",
-      "projectPath": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\ControlDocuments.csproj",
-      "packagesPath": "C:\\Users\\herus.neuhaus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herus.neuhaus\\Documents\\Projetos\\ControlDocumentos\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\ControlDocuments\\ControlDocuments.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\ControlDocuments\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\herus.neuhaus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4118,7 +4118,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
